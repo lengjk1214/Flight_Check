@@ -1,0 +1,26 @@
+js_mocha运行环境：
+VScode:version 1.57
+nodejs:v14.17.6
+npm:6.14.15
+mocha
+mochawesome
+
+js_mocha运行代码为：
+mocha **.test.js
+
+vue_code运行环境：
+VScode:version 1.57
+vue-cli
+express插件
+vue-cli插件
+cnpm镜像
+
+vue_code运行步骤：
+原因：由于项目外层的目录名发生更改，故直接运行会报错
+步骤：（1）执行cnpm cache clean 命令清除掉cache缓存
+          （2）然后执行cnpm install 
+          （3）执行npm run dev就可以运行本项目
+注意：vue最终前端显示网页地址为：localhost:8080/#/first
+
+
+
